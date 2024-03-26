@@ -8,16 +8,25 @@ a {
 h1 {
     font-size:45px;
     text-align:center;
-    border-bottom:1px solid gray;
+    border-bottom:5px solid lightblue;
     margin:0;
     padding:20px;
 }
 ol {
-    border-right:1px solid gray;
+    border-right:5px solid lightblue;
     width:100px;
     margin:0;
     padding:20px;
     padding-left:30px;
+}
+li {
+    font-size: 18px;
+    color: darkblue;
+    font-weight: bold;
+}
+#list {
+    color:darkblue;
+    font-weight: bold;
 }
 #grid {
     display:grid;
